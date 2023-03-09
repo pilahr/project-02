@@ -16,6 +16,13 @@ console.log(isNumberPositive(10));
 // 2. Write a function that takes a number of days and converts it into an age.
 // convertDaysToAge(3650); // returns 10
 // convertDaysToAge(6570); // returns 18
+const convertDaysToAge = (days) => {
+    const age = days/365;
+    return age;
+}
+
+console.log(convertDaysToAge(3650));
+console.log(convertDaysToAge(6570));
 
 
 // 3. Write a function that takes three numbers and returns the largest of the three numbers.
